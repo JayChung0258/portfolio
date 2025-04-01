@@ -1,6 +1,9 @@
-@import "tailwindcss";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-* {
+
+*{
   font-family: Outfit;
 }
 
@@ -8,6 +11,3 @@
   font-family: Ovo;
 }
 
-.font-outfit {
-  font-family: Outfit;
-}
