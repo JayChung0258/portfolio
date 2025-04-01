@@ -43,3 +43,10 @@ next-env.d.ts
 # all png
 *.png
 *.svg
+*.jpg
+*.jpeg
+*.gif
+*.bmp
+*.tiff
+*.ico
+*.webp
