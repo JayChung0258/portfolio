@@ -6,6 +6,8 @@ import About from './components/About'
 import Services from './components/Services'
 import WorkExperience from './components/WorkExperience'
 import Contact from './components/Contact'
+import Footer from './components/Footer'
+
 export default function Home() {
   return (
     <>
@@ -15,6 +17,7 @@ export default function Home() {
       <Services />
       <WorkExperience />
       <Contact />
+      <Footer />
     </>
   );
 }
