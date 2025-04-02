@@ -4,26 +4,26 @@ import { assets, infoList, toolsData } from '../assets/assets'
 
 const About = () => {
     return (
-        <div id='about' className='w-full px-[12%] py-10 scroll-mt-20'>
+        <div id='about' className='w-full max-w-[1200px] mx-auto px-4 md:px-8 py-10'>
             <h4 className='text-center mb-2 text-lg font-Ovo'>
                 Introduction
             </h4>
 
             {/* title */}
             <h2 className='text-center mb-2 text-5xl font-Ovo'>
-                About Me
+                About Me    
             </h2>
 
-            <div className='flex w-full flex-col lg:flex-row items-center gap-20 my-20'>
+            <div className='flex w-full flex-col lg:flex-row items-center gap-20 my-20 '>
 
                 {/* user image */}
-                <div className='w-64 sm:w-80 rounded-3xl max-w-none'>
+                <div className='w-64 sm:w-80 rounded-3xl max-w-none '>
                     <Image src={assets.user_image} alt="" className='w-full h-full rounded-3xl object-cover' />
                 </div>
 
                 {/* about me */}
                 <div className='flex-1'>
-                    <p className='mb-10 max-w-2xl font-Ovo'>
+                    <p className='mb-10 max-w-4xl font-Ovo'>
                         Software Engineer with over 2 years of experience in Python, Django, React, and full-stack development.
                         Proven ability to develop scalable solutions for SaaS platforms, process high volumes of data,
                         and implement machine learning models. Skilled in optimizing backend performance and deploying
@@ -31,7 +31,7 @@ const About = () => {
                         data-driven development for impactful projects.
                     </p>
 
-                    <ul className='grid grid-cols-1 sm:grid-cols-3 gap-6 max-w-2xl'>
+                    <ul className='grid grid-cols-1 sm:grid-cols-3 gap-6 max-w-4xl'>
                         {infoList.map(({ icon, iconDark, title, description }, index) => (
                             <li key={index} className='border-[0.5px] border-gray-400
                                                         rounded-lg p-6 cursor-pointer hover:bg-lightHover

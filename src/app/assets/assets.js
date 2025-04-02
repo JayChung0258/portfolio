@@ -39,6 +39,9 @@ import cursor_logo from './cursor_logo.png';
 import postgresql_logo from './postgresql_logo.png';
 import react_logo from './react_logo.png';
 import cursor_logo_dark from './cursor_logo_dark.png';
+import ml_logo from './ml_logo.png';
+import mobile_develop from './mobile_develop.png';
+import full_stack from './full_stack.png';
 
 export const assets = {
     user_image,
@@ -81,7 +84,10 @@ export const assets = {
     cursor_logo,
     postgresql_logo,
     react_logo,
-    cursor_logo_dark
+    cursor_logo_dark,
+    ml_logo,
+    mobile_develop,
+    full_stack
 };
 
 export const workData = [
@@ -108,10 +114,9 @@ export const workData = [
 ]
 
 export const serviceData = [
-    { icon: assets.web_icon, title: 'Web design', description: 'Web development is the process of building, programming...', link: '' },
-    { icon: assets.mobile_icon, title: 'Mobile app', description: 'Mobile app development involves creating software for mobile devices...', link: '' },
-    { icon: assets.ui_icon, title: 'UI/UX design', description: 'UI/UX design focuses on creating a seamless user experience...', link: '' },
-    { icon: assets.graphics_icon, title: 'Graphics design', description: 'Creative design solutions to enhance visual communication...', link: '' },
+    { icon: assets.full_stack, title: 'Web development', description: 'Web development is the process of building, programming...', link: '' },
+    { icon: assets.mobile_develop, title: 'Mobile app', description: 'Mobile app development involves IOS/Android app development...', link: '' },
+    { icon: assets.ml_logo, title: 'Machine Learning', description: 'Experience in implementing machine learning models into web services...', link: '' },
 ]
 
 export const infoList = [
