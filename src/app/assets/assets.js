@@ -120,9 +120,9 @@ export const workData = [
 ]
 
 export const serviceData = [
-    { icon: assets.full_stack, title: 'Web development', description: 'Web development is the process of building, programming...', link: '' },
-    { icon: assets.mobile_develop, title: 'Mobile app', description: 'Mobile app development involves IOS/Android app development...', link: '' },
-    { icon: assets.ml_logo, title: 'Machine Learning', description: 'Experience in implementing machine learning models into web services...', link: '' },
+    { icon: assets.full_stack, title: 'Web development', description: 'Web development is the process of building, programming...', link: '#work' },
+    { icon: assets.mobile_develop, title: 'Mobile app', description: 'Mobile app development involves IOS/Android app development...', link: '#work' },
+    { icon: assets.ml_logo, title: 'Machine Learning', description: 'Experience in implementing machine learning models into web services...', link: '#work' },
 ]
 
 export const infoList = [
