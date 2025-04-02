@@ -152,7 +152,8 @@ export const workExperience = [
             'Developed a Google Chrome extension using React to streamline the element clipping process for the Customer Success team, improving their productivity by 50%.',
             'Led an automation project with Power Automate, integrating 3 new data sources and automating data crawling processes, resulting in a 30% increase in data coverage.'
         ],
-        logo: assets.gofreight
+        logo: assets.gofreight,
+        link: 'https://www.gofreight.com/'
     },
     {
         company: 'GoFreight',
@@ -165,7 +166,8 @@ export const workExperience = [
             'Created comprehensive unit tests with Pytest, achieving 80% test coverage and significantly enhancing product reliability. This proactive testing reduced bugs in production and facilitated smoother updates and deployments.',
             'Led a machine learning project to predict Estimated Time of Arrival (ETA) using historical shipment data. By deploying machine learning algorithms, I improved the accuracy of shipment predictions, leading to enhanced customer satisfaction and more efficient logistics planning.'
         ],
-        logo: assets.gofreight
+        logo: assets.gofreight,
+        link: 'https://www.gofreight.com/'
     },
     {
         company: 'Appar Technologies',
@@ -176,6 +178,7 @@ export const workExperience = [
             'Built and optimized frontend components with React, working closely with UI/UX designers and backend engineers to enhance the reusability and performance of design elements. This collaboration led to more efficient development workflows and improved product consistency.',
             'Gained practical experience in mobile app development and front-end engineering, while contributing to a real-world project that positively impacted the local education sector.'
         ],
-        logo: assets.appar
+        logo: assets.appar,
+        link: 'https://www.appar.com.tw/en/'
     }
 ];

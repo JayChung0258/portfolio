@@ -21,8 +21,12 @@ const WorkExperience = () => {
                     <div key={index} className='flex flex-col lg:flex-row gap-10'>
                         {/* Company Logo */}
                         {experience.logo && (
-                            <div className='w-24 h-24 rounded-2xl overflow-hidden shadow-md'>
-                                <Image src={experience.logo} alt={experience.company} className='w-full h-full object-cover' />
+                            <div className='w-24 h-24 rounded-2xl overflow-hidden shadow-md group'>
+                                <a href={experience.link} target="_blank" rel="noopener noreferrer" 
+                                    className='block transition-transform duration-300 hover:scale-105'>
+                                    <Image src={experience.logo} alt={experience.company} 
+                                        className='w-full h-full object-cover transition-opacity duration-300 group-hover:opacity-80' />
+                                </a>
                             </div>
                         )}
 
