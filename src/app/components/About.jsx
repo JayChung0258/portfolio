@@ -24,7 +24,7 @@ const About = () => {
                 {/* about me */}
                 <div className='flex-1'>
                     <p className='mb-10 max-w-4xl font-Ovo'>
-                        Software Engineer with over 2 years of experience in Python, Django, React, and full-stack development.
+                        Software Engineer with over 2 years of work experience in Python, Django, React, and full-stack development.
                         Proven ability to develop scalable solutions for SaaS platforms, process high volumes of data,
                         and implement machine learning models. Skilled in optimizing backend performance and deploying
                         cloud services on AWS. Seeking to leverage my technical expertise in backend engineering and

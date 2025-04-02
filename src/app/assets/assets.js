@@ -42,6 +42,8 @@ import cursor_logo_dark from './cursor_logo_dark.png';
 import ml_logo from './ml_logo.png';
 import mobile_develop from './mobile_develop.png';
 import full_stack from './full_stack.png';
+import gofreight from './Gofreight_logo-square.png';
+import appar from './appar-logo.jpg';
 
 export const assets = {
     user_image,
@@ -87,7 +89,9 @@ export const assets = {
     cursor_logo_dark,
     ml_logo,
     mobile_develop,
-    full_stack
+    full_stack,
+    gofreight,
+    appar,
 };
 
 export const workData = [
@@ -120,8 +124,8 @@ export const serviceData = [
 ]
 
 export const infoList = [
-    { icon: assets.code_icon, iconDark: assets.code_icon_dark, title: 'Languages', description: 'Python, JavaScript, SQL, Next.js' },
-    { icon: assets.edu_icon, iconDark: assets.edu_icon_dark, title: 'Education', description: 'MS. in Computer Science' },
+    { icon: assets.code_icon, iconDark: assets.code_icon_dark, title: 'Languages', description: 'Python, JavaScript, SQL, C++, Java' },
+    { icon: assets.edu_icon, iconDark: assets.edu_icon_dark, title: 'Education', description: 'MS. in Computer Science & BS. in Computer Science' },
     { icon: assets.project_icon, iconDark: assets.project_icon_dark, title: 'Work', description: '2 yoe in software development' }
 ];
 
@@ -131,4 +135,45 @@ export const toolsData = [
     assets.figma, assets.git,
     assets.react_logo,
     
+];
+
+export const workExperience = [
+    {
+        company: 'GoFreight',
+        position: 'Software Engineer',
+        duration: '02/2024 - 08/2024',
+        achievements: [
+            'Designed and implemented a scalable real-time monitoring system utilizing Python, Django, SQL, and Docker to track over 200,000 containers daily, processing over 1,000,000 data points.',
+            'Orchestrated API integration using Celery and Redis to enhance real-time monitoring efficiency, enabling the system to handle over 50,000 daily shipments through parallel processing.',
+            'Conducted log data analysis using Pandas, generating actionable insights that led to a 20% reduction in server costs by optimizing resource allocation.',
+            'Resolved critical performance bottlenecks by redesigning Django ORM queries and optimizing database indices, reducing PostgreSQL query times by 30x.',
+            'Developed a Google Chrome extension using React to streamline the element clipping process for the Customer Success team, improving their productivity by 50%.',
+            'Led an automation project with Power Automate, integrating 3 new data sources and automating data crawling processes, resulting in a 30% increase in data coverage.'
+        ],
+        logo: assets.gofreight
+    },
+    {
+        company: 'GoFreight',
+        position: 'Software Engineer Intern',
+        duration: '2023 - 2024',
+        achievements: [
+            'Developed a data extraction pipeline using Scrapy and Selenium, efficiently gathering structured data from multiple sources and accelerating data transmission processes, enabling quicker access to critical information.',
+            'Streamlined EDI (Electronic Data Interchange) system integration by building robust backend systems with Django and RESTful APIs, allowing seamless cross-team data exchange and improving operational efficiency across departments.',
+            'Deployed and monitored web crawlers on servers utilizing AWS, Airflow, Sentry, and Zyte, ensuring optimal crawler performance and timely data acquisition. Implemented monitoring and alert systems to maintain uptime and service quality.',
+            'Created comprehensive unit tests with Pytest, achieving 80% test coverage and significantly enhancing product reliability. This proactive testing reduced bugs in production and facilitated smoother updates and deployments.',
+            'Led a machine learning project to predict Estimated Time of Arrival (ETA) using historical shipment data. By deploying machine learning algorithms, I improved the accuracy of shipment predictions, leading to enhanced customer satisfaction and more efficient logistics planning.'
+        ],
+        logo: assets.gofreight
+    },
+    {
+        company: 'Appar Technologies',
+        position: 'Software Engineer Intern',
+        duration: '2019 - 2020',
+        achievements: [
+            'Developed cross-platform exam system applications for both iOS and Android using React Native, delivering two custom apps for a local tutoring center. These apps facilitated seamless student-teacher interactions and enhanced the user experience through an intuitive interface.',
+            'Built and optimized frontend components with React, working closely with UI/UX designers and backend engineers to enhance the reusability and performance of design elements. This collaboration led to more efficient development workflows and improved product consistency.',
+            'Gained practical experience in mobile app development and front-end engineering, while contributing to a real-world project that positively impacted the local education sector.'
+        ],
+        logo: assets.appar
+    }
 ];

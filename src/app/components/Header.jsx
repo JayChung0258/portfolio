@@ -15,11 +15,11 @@ const Header = () => {
                 <Image src={assets.hand_icon} alt="" className='w-4' />
             </h3>
             <h1 className='text-3xl sm:text-6xl lg:text-[66px] font-Ovo'>
-                full stack developer based in Seattle, WA
+                Software Engineer
             </h1>
 
             <p className='max-w-2xl mx-auto font-Ovo'>
-                I'm a full stack developer with a passion for creating beautiful and functional web applications.
+                I'm a software engineer open to new opportunities.
             </p>
 
             <div className='flex flex-col sm:flex-row gap-4 items-center mt-4'>

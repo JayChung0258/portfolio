@@ -16,7 +16,7 @@ function Services() {
             </h2>
 
             <p className='max-w-2xl mx-auto font-Ovo'>
-                I am a full stack developer with 2 years of experience in Python, Django, React, and full-stack development.
+                I am a full stack developer with 2 years of work experience in Python, Django, React, and full-stack development.
                 Also, I have experience in implementing machine learning models into web services.
             </p>
 
