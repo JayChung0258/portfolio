@@ -44,6 +44,7 @@ import mobile_develop from './mobile_develop.png';
 import full_stack from './full_stack.png';
 import gofreight from './Gofreight_logo-square.png';
 import appar from './appar-logo.jpg';
+import footer_bg_color from './footer-bg-color.png';
 
 export const assets = {
     user_image,
@@ -92,6 +93,7 @@ export const assets = {
     full_stack,
     gofreight,
     appar,
+    footer_bg_color,
 };
 
 export const workData = [

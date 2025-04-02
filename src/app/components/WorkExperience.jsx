@@ -3,6 +3,7 @@
 import React from 'react'
 import Image from 'next/image'
 import { assets, workExperience } from '../assets/assets'
+import { toolsData } from '../assets/assets';
 
 const WorkExperience = () => {
     return (
@@ -36,7 +37,7 @@ const WorkExperience = () => {
                             <ul className='space-y-4'>
                                 {experience.achievements.map((achievement, achievementIndex) => (
                                     <li key={achievementIndex} className='flex gap-4'>
-                                        <Image src={assets.code_icon} alt="" className='w-6 h-6 mt-1 flex-shrink-0' />
+                                        <Image src={assets.code_icon} alt="" className='w-4 h-4 mt-1 flex-shrink-0 translate-y-1' />
                                         <p className='text-gray-700'>
                                             {achievement}
                                         </p>
